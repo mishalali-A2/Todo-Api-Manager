@@ -1,6 +1,6 @@
 # Todo API Manager
 
-A web-based interface for managing Todo tasks using the [JSONPlaceholder]([https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/todos)) API. Built with jQuery and Bootstrap.
+A web-based interface for managing Todo tasks using the [jsonfile](https://jsonplaceholder.typicode.com/todos)  API. Built with jQuery and Bootstrap.
 
 ## Features
 
@@ -14,7 +14,7 @@ A web-based interface for managing Todo tasks using the [JSONPlaceholder]([https
 
 - **Frontend**: HTML5, CSS3, JavaScript (jQuery-> DOM/AJAX)
 - **Styling**: Bootstrap 5, Font Awesome
-- **API**: [JSONPlaceholder]([https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/todos))
+- **API**: [jsonfile](https://jsonplaceholder.typicode.com/todos) 
 
 ## Setup & Usage
 
