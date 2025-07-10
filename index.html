@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Todo API Manager</title>
+    <link rel="stylesheet" href="styles.css">   
+    <script src="api_calling.js"></script>
+</head>
+
+<body>
+    <h1>Todo Tasks Manager</h1>
+    
+    <div style="margin-bottom: 20px;">
+        <form id="search-user-form" style="display: flex; gap: 8px; align-items: center; margin-bottom: 10px;">
+            <input type="number" id="search-user-id" placeholder="Search by User ID" min="1" style="width: 180px;" />
+            <button type="submit">Search</button>
+            <button type="button" id="reset-search">Reset</button>
+        </form>
+        <div id="todos-container"></div>
+    </div>
+    
+    <h2>New Task?</h2>
+    <form id="add-todo-form">
+        <input type="text" id="title" placeholder="Title" required><br>
+        <input type="number" id="userId" placeholder="User ID" required><br>
+        <input type="checkbox" id="complete" placeholder="Status">Completed
+        <br>
+        <button type="submit">Add Todo</button>
+    </form>
+    
+    <h2>Update Task?</h2>
+    <form id="update-todo-form">
+        <input type="number" id="update-id" placeholder="Todo ID" required><br>
+        <input type="text" id="update-title" placeholder="Title"><br>
+        <label>
+            <input type="checkbox" id="update-status">Completed
+        </label><br>
+        <button type="submit">Update Todo</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,81 @@
+#todos-container {
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: #6EACDA;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+h2 , h1{
+    color:#01171f;
+    font-weight: 1000;
+    text-align: center;
+}
+#todos-container .scrollable-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+    background-color: #344374c5;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 8px 15px 10px rgba(142, 160, 173, 0.854);
+}
+
+.todo {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 6px;
+    background: #d4e4f0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.todo h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    word-break: break-word;
+    margin: 0 0 4px 0;
+    color:#022939;
+}
+.todo p {
+    margin: 0;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    max-width: 800px; margin: 0 auto; 
+    padding: 20px; 
+}
+.todo { 
+    border: 1px solid #4361ac; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 15px; 
+}
+.completed { 
+    background-color: #bcf6cef3; 
+}
+form { 
+    margin: 20px 0; 
+    padding: 15px; 
+    background: #8090a7d4; 
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(4, 31, 52, 0.854);
+}
+#update-status, #complete{
+    width: 100px;
+    height: 20px;
+}
+input, button { 
+    padding: 8px; 
+    margin: 5px 0; 
+}
+button { 
+    cursor: pointer; 
+}
+body{
+    background-color:#61829f;
+}
