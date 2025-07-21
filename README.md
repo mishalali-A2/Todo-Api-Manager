@@ -1,6 +1,7 @@
 # Todo API Manager
 
 A web-based interface for managing Todo tasks using the [jsonfile](https://jsonplaceholder.typicode.com/todos)  API. Built with jQuery and Bootstrap.
+look at the basic functionality at: [https://mishalali-a2.github.io/Todo-Api-Manager/]
 
 ## Features
 
